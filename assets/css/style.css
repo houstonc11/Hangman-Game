@@ -1,0 +1,136 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.masterContainer {
+    background: url("../images/mario-wallpaper-18.jpg");
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+}
+
+@font-face {
+    font-family: marioFont;
+    src: url("../fonts/mario.ttf");
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url("../fonts/plumberfont.ttf");
+}
+
+@font-face {
+    font-family: multiColorFont;
+    src: url("../fonts/multicolorfont.ttf");
+}
+
+p {
+    font-family: marioFont;
+}
+
+#directions {
+    padding-bottom: 40px;
+}
+
+#currentWordText {
+    padding-bottom: 40px;
+}
+
+.title {
+    font-family: multiColorFont;
+    font-size: 60px;
+    color: orange;
+    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+    margin-left: 20px;
+}
+
+.containerMain {
+    font-family: marioFont;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.containerSecondary {
+    font-family: marioFont;
+    font-size: 20px;
+}
+
+.panel.panel-primary {
+    background-color: rgba(245, 245, 245, .85);
+}
+
+#revealedWord {
+    font-size: 40px;
+}
+
+#alreadyGuessedText {
+    padding-top: 40px;
+}
+
+#marioGreeter {
+    height: 180px;
+    width: 100%;
+}
+
+#s {
+    color: red;
+}
+
+#u {
+    color: rgb(4, 171, 231);
+}
+
+#p {
+    color: rgb(254, 207, 4);
+}
+
+#e {
+    color: rgb(4, 171, 231);
+}
+
+#r {
+    color: rgb(57, 180, 73);
+}
+
+#m {
+    color: rgb(4, 171, 231);
+}
+
+#a {
+    color: rgb(57, 180, 73);
+}
+
+#r2 {
+    color: rgb(254, 207, 4);
+}
+
+#i {
+    color: red;
+}
+
+#o {
+    color: rgb(57, 180, 73);
+}
+
+#h {
+    color: rgb(254, 207, 4);
+}
+
+#a2 {
+    color: rgb(4, 171, 231);
+}
+
+#n {
+    color: red;
+}
+
+#g {
+    color: rgb(57, 180, 73);
+}
+
+#m2 {
+    color: rgb(254, 207, 4);
+}

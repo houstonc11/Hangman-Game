@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="masterContainer">
+        <div class="titleContainer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <span id="s">S</span>
+                        <span id="u">U</span>
+                        <span id="p">P</span>
+                        <span id="e">E</span>
+                        <span id="r">R &nbsp</span>
+                        <span id="m">M</span>
+                        <span id="a">A</span>
+                        <span id="r2">R</span>
+                        <span id="i">I</span>
+                        <span id="o">O &nbsp</span>
+                        <span id="h">H</span>
+                        <span id="a2">A</span>
+                        <span id="n">N</span>
+                        <span id="g">G</span>
+                        <span id="m2">M</span>
+                        <span id="a">A</span>
+                        <span id="n">N</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerMain">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel panel-primary panel-transparent">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"></h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-12">
+                                <div class="hudBox">
+                                    <p id="directions">Press any Key to get started!</p>
+                                    <p id="currentWordText">Current Word...</p>
+                                    <p id="revealedWord"></p>
+                                    <p id="alreadyGuessedText">Letters Already Guessed</p>
+                                    <p id="guessedLetters"></p>
+                                    <div></div>
+                                    <p id="playerMessage"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerSecondary">
+                    <div class="col-md-3">
+                        <div class="panel-box">
+                            <div class="panel panel-primary panel-transparent">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"></h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p id="winsText">Wins</p>
+                                    <p id="totalWins"></p>
+                                    <p id="guessesRemainingText">Number of Guesses Remaining</p>
+                                    <p id="guessesLeft"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-box panel-box-pic">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"></h3>
+                                </div>
+                                <img id="marioGreeter" src="assets/images/mariogreeter.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="assets/javascript/game.js" </script>
+< script src = "https://code.jquery.com/jquery-3.1.1.min.js" >
+</script>
+
+</html>

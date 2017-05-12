@@ -7,9 +7,10 @@ body {
     background: url("../images/mario-wallpaper-18.jpg");
     background-repeat: no-repeat;
     max-width: 1440px;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
-    height: auto;
+    height: 1000px;
+    
 }
 
 @font-face {
@@ -50,12 +51,13 @@ p {
 .containerMain {
     font-family: marioFont;
     font-size: 30px;
-    margin-left: 20px;
+    margin: 0 20px;
 }
 
 .containerSecondary {
     font-family: marioFont;
     font-size: 20px;
+
 }
 
 .panel.panel-primary {
